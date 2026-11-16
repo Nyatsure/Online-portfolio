@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Index- Arleth Catzín Portfolio</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Fredoka:wght@300..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Fredoka:wght@300..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+      <script>
+            (function () {
+                const flowers = ['🌸'];
+                let lastTime = 0;
+
+                document.addEventListener('mousemove', function (e) {
+                  const currentTime = Date.now();
+                  
+                  if (currentTime - lastTime < 40) return;
+                  lastTime = currentTime;
+
+                  const flower = document.createElement('span');
+                  flower.className = 'trail-flower';
+
+                  flower.textContent = flowers[Math.floor(Math.random() * flowers.length)];
+
+                  flower.style.left = e.clientX + 'px';
+                  flower.style.top = e.clientY + 'px';
+
+                  document.body.appendChild(flower);
+
+                  setTimeout(() => {
+                    flower.remove();
+                  }, 1000);
+                });
+              })();
+            </script>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html" #hero class="active">Home</a></li>
+          <li><a href="#about">About me</a></li>
+          <li><a href="service-details.html">Services</a></li>
+          <li class="dropdown"><a href="#portfolio">Portfolio <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="Ilustration.html">Ilustration</a></li>
+              <li><a href="publicity.html">Publicity</a></li>
+              <li><a href="Animation.html">Animation</a></li>
+              <li><a href="Storyboard.html">Storyboard</a></li>
+              <li><a href="character design.html">Character design</a></li>
+            </ul>
+          </li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <a class="btn-getstarted" href="index.html">Start</a>
+
+    </div>
+  </header>
+
+    <div class="background-color">
+
+<!-- Hero Section con Video Local -->
+<section id="hero" class="hero section dark-background">
+
+  <div class="hero-video-container">
+    <video autoplay muted playsinline class="hero-video">
+      <source src="assets/vid/Logo_animado_prueba.mp4" type="video/mp4">
+      Tu navegador no soporta videos HTML5.
+    </video>
+  </div>
+
+</section><!-- /Hero Section -->
+
+      <main class="main">
+      
+        <section class=" puntosfondo">
+              <!-- About Section -->
+        <section id="about" class="about section">
+
+          <!-- Section Title -->
+          <div class="caja-deco section-title" data-aos="fade-up">
+            <span class="subtitle">what do i do?</span>
+            <h2>A little bit of EVERYTHING</h2>
+            <p>I enjoy to make 2d animations beetwen Storyboard to Keyframes and publicity for social media (Graphic design) but also i make branding, ilustrations, Character design, ¡ and much more than that!</p>
+            <p>¡Watch my portfolio!</p>
+          </div><!-- End Section Title -->
+        
+          </section><!-- /About Section -->
+
+          <!-- Portfolio Section -->
+        <section id="portfolio" class="portfolio section">
+
+          <!-- Section Title -->
+          <div class="section-title" data-aos="fade-up">
+            <span class="subtitle">Portfolio</span>
+            <h2>Portfolio</h2>
+          </div><!-- End Section Title -->
+
+          <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+              <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="200">
+                <li data-filter="*" class="filter-active">All Work</li>
+                <li data-filter=".filter-storyboard">Storyboard</li>
+                <li data-filter=".filter-ilustracion">Ilustration</li>
+                <li data-filter=".filter-character">Character design</li>
+                <li data-filter=".filter-publicity">Publicity</li>
+              </ul>
+
+              <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="300">
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-character">
+                  <div class="portfolio-card">
+                    <div class="portfolio-image-container">
+                      <img src="assets/img/portfolio/characterDesign/Portfolio-1.png" alt="Character design and dynamic poses" class="img-fluid" loading="lazy">
+                      <div class="portfolio-overlay">
+                        <div class="portfolio-info">
+                          <span class="project-category">Character design</span>
+                        </div>
+                        <div class="portfolio-actions">
+                          <a href="assets/img/portfolio/characterDesign/Portfolio-1.png" class="glightbox portfolio-link">
+                            <i class="bi bi-plus-lg"></i>
+                          </a>
+                          <a href="#" class="portfolio-details">
+                            <i class="bi bi-arrow-right"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="portfolio-meta">
+                      <div class="project-tags">
+                        <span class="tag">Key</span>
+                        <span class="tag">Character design</span>
+                      </div>
+                      <div class="project-year">2022</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-ilustracion">
+                  <div class="portfolio-card">
+                    <div class="portfolio-image-container">
+                      <img src="assets/img/portfolio/Ilustration/portfolio-2.png" alt="Digital Project" class="Concept art amigas" loading="lazy">
+                      <div class="portfolio-overlay">
+                        <div class="portfolio-info">
+                          <span class="project-category">Ilustration</span>
+                        </div>
+                        <div class="portfolio-actions">
+                          <a href="assets/img/portfolio/Ilustration/portfolio-2.png" class="glightbox portfolio-link">
+                            <i class="bi bi-plus-lg"></i>
+                          </a>
+                          <a href="#" class="portfolio-details">
+                            <i class="bi bi-arrow-right"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="portfolio-meta">
+                      <div class="project-tags">
+                        <span class="tag">Key</span>
+                        <span class="tag">Layout</span>
+                      </div>
+                      <div class="project-year">2022</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-publicity">
+                  <div class="portfolio-card">
+                    <div class="portfolio-image-container">
+                      <img src="assets/img/portfolio/publicity/Portfolio-3.png" alt="Flyer publicitario para heladería MOchi Cream" class="img-fluid" loading="lazy">
+                      <div class="portfolio-overlay">
+                        <div class="portfolio-info">
+                          <span class="project-category">Graphic Design</span>
+                          <h4>Social media publicity</h4>
+                        </div>
+                        <div class="portfolio-actions">
+                          <a href="assets/img/portfolio/publicity/Portfolio-3.png" class="glightbox portfolio-link">
+                            <i class="bi bi-plus-lg"></i>
+                          </a>
+                          <a href="#" class="portfolio-details">
+                            <i class="bi bi-arrow-right"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="portfolio-meta">
+                      <div class="project-tags">
+                        <span class="tag">Social media design</span>
+                      </div>
+                      <div class="project-year">2025</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-storyboard">
+                  <div class="portfolio-card">
+                    <div class="portfolio-image-container">
+                      <img src="assets/img/portfolio/Storyboard/Kaizoo/portfolio-4.png" alt="Development Project" class="img-fluid" loading="lazy">
+                      <div class="portfolio-overlay">
+                        <div class="portfolio-info">
+                          <span class="project-category">Storyboard</span>
+                        </div>
+                        <div class="portfolio-actions">
+                          <a href="assets/img/portfolio/Storyboard/Kaizoo/portfolio-4.png" class="glightbox portfolio-link">
+                            <i class="bi bi-plus-lg"></i>
+                          </a>
+                          <a href="#" class="portfolio-details">
+                            <i class="bi bi-arrow-right"></i>
+                          </a>
+                        </div>
+
+                        <div class="d-none">
+                          <a href="assets/img/portfolio/Storyboard/Kaizoo/portfolio-4 (1).png" class="glightbox" data-gallery="storyboard-gallery"></a>
+                          <a href="assets/img/portfolio/Storyboard/Kaizoo/portfolio-4 (2).png" class="glightbox" data-gallery="storyboard-gallery"></a>
+                          <a href="assets/img/portfolio/Storyboard/Kaizoo/portfolio-4(3).png" class="glightbox" data-gallery="storyboard-gallery"></a>
+                          <a href="assets/img/portfolio/Storyboard/Kaizoo/portfolio-4(5).png" class="glightbox" data-gallery="storyboard-gallery"></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="portfolio-meta">
+                      <div class="project-tags">
+                        <span class="tag">Storyboard</span>
+                      </div>
+                      <div class="project-year">2022</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-publicity">
+                  <div class="portfolio-card">
+                    <div class="portfolio-image-container">
+                      <img src="assets/img/portfolio/publicity/portfolio-5.jpg" alt="Ilustración publicitaria para Cup noodles" class="img-fluid" loading="lazy">
+                      <div class="portfolio-overlay">
+                        <div class="portfolio-info">
+                          <span class="project-category">Graphic design and Ilustration</span>
+                          <h4>Social media publicity</h4>
+                        </div>
+                        <div class="portfolio-actions">
+                          <a href="assets/img/portfolio/publicity/portfolio-5.jpg" class="glightbox portfolio-link">
+                            <i class="bi bi-plus-lg"></i>
+                          </a>
+                          <a href="#" class="portfolio-details">
+                            <i class="bi bi-arrow-right"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="portfolio-meta">
+                      <div class="project-tags">
+                        <span class="tag">ilustration</span>
+                        <span class="tag">social media design</span>
+                      </div>
+                      <div class="project-year">2026</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-publicity">
+                  <div class="portfolio-card">
+                    <div class="portfolio-image-container">
+                      <img src="assets/img/portfolio/publicity/Portfolio-6.png" alt="Publicidad para Sappori Menu" class="img-fluid" loading="lazy">
+                      <div class="portfolio-overlay">
+                        <div class="portfolio-info">
+                          <span class="project-category">Graphic design</span>
+                          <h4>Publicity</h4>
+                        </div>
+                        <div class="portfolio-actions">
+                          <a href="assets/img/portfolio/publicity/Portfolio-6.png" class="glightbox portfolio-link">
+                            <i class="bi bi-plus-lg"></i>
+                          </a>
+                          <a href="#" class="portfolio-details">
+                            <i class="bi bi-arrow-right"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="portfolio-meta">
+                      <div class="project-tags">
+                        <span class="tag">Social media design</span>
+                      </div>
+                      <div class="project-year">2026</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="portfolio-bottom" data-aos="fade-up" data-aos-delay="400">
+              <div class="row align-items-center">
+                <div class="col-lg-8">
+                  <h3>Do you like what you see?</h3>
+                  <p>I'm available to work</p>
+                </div>
+                <div class="col-lg-4 text-lg-end">
+                  <a href="#contact" class="btn btn-accent">¡Let's work!</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </section><!-- /Portfolio Section -->
+        <!-- Contact Section -->
+    <div class="contact section" id="contact" >
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <span class="subtitle">Contact</span>
+        <h2>Contact</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4">
+            <div class="info-item">
+
+              <div class="icon-wrapper">
+                <i class="bi bi-phone"></i>
+              </div>
+              <div>
+                <h3>Contact me</h3>
+                <p>9991027062</p>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <div class="icon-wrapper">
+                <i class="bi bi-telephone"></i>
+              </div>
+              <div>
+                <h3>Send a message</h3>
+                <p>+52 9993633734</p>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <div class="icon-wrapper">
+                <i class="bi bi-envelope"></i>
+              </div>
+              <div>
+                <h3>Email Me</h3>
+                <p>catzincaamalarleth.com</p>
+              </div>
+            </div>
+
+          </div>
+
+           <div class="col-lg-8">
+            <form action="https://api.web3forms.com/submit" method="POST" class="php-email-form">
+              <input type="hidden" name="access_key" value="4415b2be-2a0f-47b6-a5b7-2d053860f37e">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                </div>
+
+                <div class="col-md-6">
+                  <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                  <button type="submit">Send Message</button>
+                </div>
+
+              </div>
+            </form>
+          </div>
+
+
+        </div>
+
+      </div>
+
+    </div><!-- /Contact Section -->
+      <!-- Footer Section -->
+        <div class="row gy-4">
+          <div class="col-lg-5 col-md-12 footer-about">
+            <a href="https://x.com/FrikiCat1" target="_blank"><i class="bi bi-twitter-x"></i></a>
+            <a href="https://www.instagram.com/nyatsure/" target="_blank"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/arleth-catz%C3%ADn-3a64623a2/"><i class="bi bi-linkedin"></i></a>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><a href="index.html">Back home</a></li>
+              <li><a href="index.html#about">about me</a></li>
+              <li><a href="service-details.html">Services</a></li>
+              <li><a href="terms.html">terms and conditions</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>My services</h4>
+            <ul>
+              <li><a href="Ilustration.html">Ilustration</a></li>
+              <li><a href="#">Animación 2d</a></li>
+              <li><a href="Storyboard.html">Storyboard</a></li>
+              <li><a href="character design.html">Character design</a></li>
+              <li><a href="publicity.html">Publicity</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+            <h4>Contact Us</h4>
+            <p class="mt-4"><strong>Phone:</strong> <span>+52 99 93 63 37 34</span></p>
+            <p><strong>Email:</strong> <span>catzincaamal@gmail.com</span></p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+  </main>
+
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
