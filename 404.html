@@ -9,8 +9,8 @@
   <meta name="keywords" content="">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -40,23 +40,55 @@
 
   <header id="header" class="headerpages d-flex align-items-center sticky-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center">
+      <script>
+            (function () {
+                const flowers = ['🌸'];
+                let lastTime = 0;
 
-      <a href="index.html" class="logo d-flex align-items-center me-auto">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.webp" alt=""> -->
-        <h1 class="sitename">Portafolio</h1>
-      </a>
+                document.addEventListener('mousemove', function (e) {
+                  const currentTime = Date.now();
+                  
+                  if (currentTime - lastTime < 40) return;
+                  lastTime = currentTime;
+
+                  const flower = document.createElement('span');
+                  flower.className = 'trail-flower';
+
+                  flower.textContent = flowers[Math.floor(Math.random() * flowers.length)];
+
+                  flower.style.left = e.clientX + 'px';
+                  flower.style.top = e.clientY + 'px';
+
+                  document.body.appendChild(flower);
+
+                  setTimeout(() => {
+                    flower.remove();
+                  }, 1000);
+                });
+              })();
+            </script>
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="#about">sobre mí</a></li>
-          <li><a href="#resume">Resume</a></li>
-          <li><a href="service-details.html">Servicios</a></li>
-          <li><a href="portfolio-details.html">Portafolio</a></li>
+          <li><a href="index.html" #hero class="active">Home</a></li>
+          <li><a href="#about">About me</a></li>
+          <li><a href="service-details.html">Services</a></li>
+          <li class="dropdown"><a href="index.html" #portfolio>Portfolio <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="Ilustration.html">Ilustration</a></li>
+              <li><a href="publicity.html">Publicity</a></li>
+              <li><a href="Animation.html">Animation</a></li>
+              <li><a href="Storyboard.html">Storyboard</a></li>
+              <li><a href="character design.html">Character design</a></li>
+            </ul>
+          </li>
+          <li><a href="index.html" #contact>Contact</a></li>
+        </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
-      <a class="btn-getstarted" href="#about">Get Started</a>
+
+      <a class="btn-getstarted" href="index.html">Start</a>
+
     </div>
   </header>
 
