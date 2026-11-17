@@ -66,14 +66,14 @@
   background-color: #000000;
 }
 .puntosfondo {
-  background-image: url('img/Background/Hojalibreta.png');
+  background-image: url('../../img/Background/Hojalibreta.png');
   background-position: auto;                    
   background-repeat: repeat;                   /* la imagen se repetirá */
   background-size: contain;                         
   height: 2900px;                                  /* ¡Indispensable para que se vea el fondo! */
 }
 .puntosfondo2 {
-  background-image: url('img/Background/Hojalibreta.png');
+  background-image: url('../../img/Background/Hojalibreta.png');
   background-position: auto;                    
   background-repeat: repeat;                   /* la imagen se repetirá */
   background-size: contain;                         
